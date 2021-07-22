@@ -85,6 +85,8 @@ The settings for this node are:
 3. An account with OpenWeatherMap (http://www.openweathermap.org)
 
 # Release Notes
+- 3.1.1 07/22/2021
+   - fix drivers for forecast rain/snow
 - 3.1.0 06/30/2021
    - Ported to Polyglot version 2
 - 3.0.2 04/02/2021
