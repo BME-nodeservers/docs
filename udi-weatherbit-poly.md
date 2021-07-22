@@ -93,6 +93,8 @@ To get an API key, register at www.weatherbit.io
 
 # Release Notes
 
+- 2.0.1 07/22/2021
+   - fix precipitation
 - 2.0.0 07/08/2021
    - Ported to Polyglot version 3
 - 1.0.8 07/07/2020
