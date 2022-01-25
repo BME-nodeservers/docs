@@ -34,6 +34,15 @@ The settings for this node are:
 
 # Release Notes
 
+- 2.0.4 1/24/2022
+   - Fix nls mapping for rain values.  
+   - Don't look at eventrain, use hourlyrain instead for rain rate.
+   - Change battery UOM, it's not voltage but just a ok/low indication.
+   - Fix bug in stop. It was calling the old name to set the station state.
+- 2.0.3 1/18/2022
+   - Fix co2 battery, move rain to sensor 'main'.
+- 2.0.2 1/13/2022
+   - Support new field names that don't match the naming convention
 - 2.0.1 8/7/2021
    - Initial release for Polyglot version 3
 - 0.1.11 9/05/2020
