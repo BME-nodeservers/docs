@@ -34,6 +34,10 @@ The settings for this node are:
 
 # Release Notes
 
+- 2.0.6 6/1/2022
+   - Add some support for lightning data
+- 2.0.5 4/18/2022
+   - Update to use the latest udi_interface module
 - 2.0.4 1/24/2022
    - Fix nls mapping for rain values.  
    - Don't look at eventrain, use hourlyrain instead for rain rate.

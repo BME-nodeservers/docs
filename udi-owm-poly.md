@@ -85,6 +85,10 @@ The settings for this node are:
 3. An account with OpenWeatherMap (http://www.openweathermap.org)
 
 # Release Notes
+- 3.1.4 06/05/2022
+   - Add error traping to ETo calc.
+- 3.1.2 05/29/2022
+   - Change to use new PG3 status tristate
 - 3.1.1 07/22/2021
    - fix drivers for forecast rain/snow
 - 3.1.0 06/30/2021
