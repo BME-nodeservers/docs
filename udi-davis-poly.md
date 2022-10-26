@@ -35,6 +35,75 @@ The settings for this node are:
 #### Station
    * The Davis station ID. Not currently used.
 
+## Node substitution variables
+### Current condition node
+ * sys.node.[address].ST      (Node server online)
+ * sys.node.[address].CLITEM  (temperature)
+ * sys.node.[address].CLIHUM  (humidity)
+ * sys.node.[address].DEWPT   (dewpoint)
+ * sys.node.[address].GV3     (heat index)
+ * sys.node.[address].GV4     (windchill)
+ * sys.node.[address].BARPRES (pressure)
+ * sys.node.[address].WINDDIR (wind dir)
+ * sys.node.[address].SPEED   (wind speed)
+ * sys.node.[address].GV16    (pressure trend)
+ * sys.node.[address].SOLRAD  (solar radiation)
+
+### Daily
+ * sys.node.[address].GV0     (temp high)
+ * sys.node.[address].GV1     (temp low)
+ * sys.node.[address].GV2     (dewpt high)
+ * sys.node.[address].GV3     (dewpt low)
+ * sys.node.[address].GV4     (heatidx high)
+ * sys.node.[address].GV5     (windchill low)
+ * sys.node.[address].GV8     (humidity high)
+ * sys.node.[address].GV9     (humidity low)
+ * sys.node.[address].GV10    (pressure high)
+ * sys.node.[address].GV11    (pressure low)
+ * sys.node.[address].GV12    (preciptitation)
+ * sys.node.[address].RAINRT  (rain rate)
+ * sys.node.[address].SPEED   (wind speed)
+ * sys.node.[address].GV13    (wind gust)
+ * sys.node.[address].SOLRAD  (Solarradiation)
+ * sys.node.[address].UV      (UV Index)
+ * sys.node.[address].GV20    (ETo)
+
+### Monthly
+ * sys.node.[address].GV0     (temp high)
+ * sys.node.[address].GV1     (temp low)
+ * sys.node.[address].GV2     (dewpt high)
+ * sys.node.[address].GV3     (dewpt low)
+ * sys.node.[address].GV4     (heatidx high)
+ * sys.node.[address].GV5     (windchill low)
+ * sys.node.[address].GV8     (humidity high)
+ * sys.node.[address].GV9     (humidity low)
+ * sys.node.[address].GV10    (pressure high)
+ * sys.node.[address].GV11    (pressure low)
+ * sys.node.[address].GV12    (preciptitation)
+ * sys.node.[address].RAINRT  (rain rate)
+ * sys.node.[address].SPEED   (wind speed)
+ * sys.node.[address].SOLRAD  (Solarradiation)
+ * sys.node.[address].UV      (UV Index)
+ * sys.node.[address].GV20    (ETo)
+
+### Yearly
+ * sys.node.[address].GV0     (temp high)
+ * sys.node.[address].GV1     (temp low)
+ * sys.node.[address].GV2     (dewpt high)
+ * sys.node.[address].GV3     (dewpt low)
+ * sys.node.[address].GV4     (heatidx high)
+ * sys.node.[address].GV5     (windchill low)
+ * sys.node.[address].GV8     (humidity high)
+ * sys.node.[address].GV9     (humidity low)
+ * sys.node.[address].GV10    (pressure high)
+ * sys.node.[address].GV11    (pressure low)
+ * sys.node.[address].GV12    (preciptitation)
+ * sys.node.[address].RAINRT  (rain rate)
+ * sys.node.[address].SPEED   (wind speed)
+ * sys.node.[address].SOLRAD  (Solarradiation)
+ * sys.node.[address].UV      (UV Index)
+ * sys.node.[address].GV20    (ETo)
+
 
 ## Requirements
 
