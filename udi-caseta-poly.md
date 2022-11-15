@@ -31,6 +31,7 @@ PJ2-3B-GXX-X01   - Pico 3 button remote
 PJ2-3BRL-GXX-X01 - Pico 3 button raise/lower remote
 PJ2-4B-GXX-X01   - Pico 4 button remote
 MACL-LFQH        - maestro fan control and light dimmer (TBD)
+CS-YJ-4GC-WH     - 4-Group RF Remote Control
 
 Serena shades
 QS Wireless Shades
