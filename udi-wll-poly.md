@@ -70,10 +70,16 @@ The settings for this node are:
 
 1. A Polisy running Polyglot V3
 2. ISY firmware 5.3.x or later
-3. An account with OpenWeatherMap (http://www.openweathermap.org)
 
 # Release Notes
 
+- 2.0.3 01/23/2022
+   - Pass interface instance to new nodes.
+- 2.0.2 01/17/2022
+   - Check that node exist before updating (soil, indoor)
+   - Create indoor node if data type 4 exists, not type 1
+- 2.0.1 01/10/2022
+   - Fix bug indoor/soil node access
 - 2.0.0 07/19/2021
    - Converted to work with Polyglot version 3
 - 1.0.6 05/21/2020
