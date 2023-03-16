@@ -14,8 +14,7 @@ This node server is intended to support [Davis Weather Stations](http://www.davi
 2. Go to the Polyglot Store in the UI and click Install. You will be redirected to the UDI store to purchase a license for this node server.
 3. After purchasing the node server, refresh the store listing.
 4. Click the Install button again.
-5. After the install completes, go to the dashboard and select OpenWeatherMap 'Details'
-6. Configure the node server per configuration section below.
+5. Configure the node server per configuration section below.
 
 ### Node Settings
 The settings for this node are:
