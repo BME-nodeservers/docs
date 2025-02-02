@@ -48,9 +48,10 @@ The settings for this node are:
    * How often to scan the network for device changes (default 60 seconds)
 
 ## Requirements
-1. Polyglot V3.
-2. ISY firmware 5.3.x or later
-3. One or more Roku devices
+You may have to enable nework access on the Roku before the plug-in will
+be able to find and connect to it.
+
+Go to Settings:System:Advanced System Settings - then Control by mobile apps. Change the Network Access to "Enabled"
 
 
 # Release Notes
