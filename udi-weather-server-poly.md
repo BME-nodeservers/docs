@@ -170,9 +170,6 @@ Data schema, instructions TBD
 
 # Release Notes
 
-- 2.0.1 03/03/2022
-   - Fix node creation during mapping
-   - Make server is started and discovery is only done once on start.
 - 2.0.0 07/19/2021
    - Converted to work with Polyglot version 3
 - 0.1.11 07/02/2020

@@ -1,15 +1,13 @@
 
-# NOYITO - 2 channel USB relay board.
+# DSD Tech - SH-UR01A USB relay board.
 
-A node server that works with the Noyito USB relay boards.  Currently
-only the 2 channel board has been tested, but it may work with other
-configurations.
+A node server that works with the DSD Tech USB relay board.
 
 This may work with other brands of USB relay boards if they use the
 same protocol.
 
-The Noyito board is availble from Amazon at:
-[https://www.amazon.com/NOYITO-2-Channel-Module-Control-Intelligent/dp/B081RM7PMY]
+The DSD Tech board is availble from Amazon at:
+[https://www.amazon.com/dp/B09PYML6Q7?psc=1&ref=ppx_yo2ov_dt_b_product_details]
 
 # Configuration
 The node server will poll the board at the short poll interval for any changes in
@@ -30,13 +28,13 @@ Alternatly, you can configure it to automatically set the owner/permissions of t
 when it is plugged in by copying:
 
 attach 100 {
-	match "vendor" "0x1a86";
-	match "product" "0x7523";
+	match "vendor" "0x10c4";
+	match "product" "0xea60";
 	action "chown polyglot /dev/tty$ttyname";
 	action "chmod 0600 /dev/tty$ttyname";
 };
 
-to /etc/devd/noyito.conf and restarting devd (service devd restart)
+to /etc/devd/dsdtech.conf and restarting devd (service devd restart)
 
 
 # PG3x only configuration
